@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  购物车
+//
+//  Created by beijingduanluo on 16/1/7.
+//  Copyright © 2016年 beijingduanluo. All rights reserved.
+//
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define Width [UIScreen mainScreen].bounds.size.width/320.0
+#define Height [UIScreen mainScreen].bounds.size.height/568.0
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ViewController.h"
+#import "UILabel+Extension.h"
+#import "UIButton+Extension.h"
+#import "UIImageView+Extension.h"
+#import "UISegmentedControl+Extension.h"
+#import "UIView+Extension.h"
+#import "ShopCartCell.h"
+#import "HeaderView.h"
+#import "FooterView.h"
+#import "ShopModel.h"
+#endif /* PrefixHeader_pch */
